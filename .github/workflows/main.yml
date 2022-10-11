@@ -15,10 +15,10 @@ jobs:
           username: ssssociety@ssssociety.in
           password: ${{ secrets.FTP_PASSWORD}}
           exclude: |
-            **css**
-            **fonts**
-            **img**
-            **js**
-            **newsletter**
-            **pdf**
-            **screens**
+            **/css/**
+            **/fonts/**
+            **/img/**
+            **/js/**
+            **/newsletter/**
+            **/pdf/**
+            **/screens/**
