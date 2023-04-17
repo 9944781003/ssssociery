@@ -15,7 +15,7 @@ jobs:
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          server: ftp.touchsky.in
+          server: touchsky.in
           username: arul@touchsky.in
           password: Coderclub@123$
           port: 21
