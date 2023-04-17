@@ -2142,3 +2142,9 @@ a:focus {
     text-align: center;
   }
 }
+
+.list-unstyled {
+  padding-left: 0;
+  /* list-style: none; */
+  list-style-image: url("./img/receipt.png");
+}
